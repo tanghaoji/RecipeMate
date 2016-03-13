@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RecipeMate</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ingredients">Ingredients</string>
+    <string name="title_activity_cover">Cover</string>
+    <string name="recipe_creation_alert">Do you want to save the recipe?</string>
+    <string name="save_recipe">Save</string>
+    <string name="cancel">Cancel</string>
+</resources>

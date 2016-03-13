@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="6dp"
+    android:orientation="horizontal" >
+    <EditText
+        android:id="@+id/ingredients_name"
+        android:layout_width="0sp"
+        android:layout_height="fill_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:hint="ingredient"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:background="@drawable/editview_shape"
+        android:layout_marginRight="15dp" />
+
+    <EditText
+        android:id="@+id/ingredients_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.45"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:hint="amount"
+        android:background="@drawable/editview_shape"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginRight="10dp" />
+
+    <EditText
+        android:id="@+id/ingredients_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.45"
+        android:gravity="center"
+        android:hint="unit"
+        android:background="@drawable/editview_shape"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginRight="10dp" />
+
+    <ImageButton
+        android:id="@+id/ingredients_removeIngredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription=""
+        android:background="@null"
+        android:onClick="removeIngredientsOnClickHandler"
+        android:src="@drawable/delete" />
+
+    <ImageButton
+        android:id="@+id/ingredients_addIngredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription=""
+        android:background="@null"
+        android:onClick="addIngredientsOnClickHandler"
+        android:src="@drawable/add2"
+        android:layout_marginLeft="5dp" />
+
+</LinearLayout>
